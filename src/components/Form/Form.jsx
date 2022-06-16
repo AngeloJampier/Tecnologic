@@ -9,7 +9,7 @@ import emailjs from 'emailjs-com'
 
 const Form = () => {
 
-  emailjs.init("uf1ocX0CxNZspgi0V")
+  emailjs.init("7kSQB0hQCdvxHkLj2")
 
   const { cartProducts, setCartProducts, totalPrice, setTotalPrice } = useContext(GlobalContext)
   const [phoneStatus, setPhoneStatus] = useState(false)
