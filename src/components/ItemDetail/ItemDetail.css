@@ -1,0 +1,113 @@
+.itemDetailContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.itemDetailContainer .img {
+  width: 40%;
+  height: auto;
+}
+
+.itemDetailContainer .product {
+  padding: 30px 30px;
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  width: 90%;
+  box-shadow: 0px 10px 10px black;
+  background: rgba(255, 255, 255, 0.38);
+  box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+  -webkit-backdrop-filter: blur(6.9px);
+  backdrop-filter: blur(10px);
+  color: white;
+}
+
+.itemDetailContainer .div1 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemDetailContainer .div2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 15px 60px;
+  background: rgba(30, 0, 94, 0.73);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+  backdrop-filter: blur(9.4px);
+  -webkit-backdrop-filter: blur(9.4px);
+}
+
+.itemDetailContainer .details {
+  font-size: 14px;
+}
+
+.itemDetailContainer .stars {
+  color: #3483fa;
+}
+
+.itemDetailContainer .recommendedContainer {
+  margin: 15px 0;
+}
+
+.itemDetailContainer .recommended {
+  background-color: black;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+  margin-right: 5px;
+  display: inline;
+  border-radius: 10px;
+}
+
+.itemDetailContainer .beforePrice {
+  margin-top: 30px;
+  text-decoration: line-through;
+}
+
+.itemDetailContainer .priceContainer {
+  margin: 0 0 10px;
+}
+
+.itemDetailContainer .price {
+  font-size: 35px;
+  display: flex;
+}
+
+.itemDetailContainer .green {
+  align-self: center;
+  color: #4bd7a2;
+  font-size: 18px;
+  padding-left: 10px;
+  line-height: 100%;
+}
+
+.itemDetailContainer .interes {
+  display: flex;
+}
+
+.itemDetailContainer .counterContainer {
+  margin: 20px 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 250px;
+  border-radius: 15px;
+  background: rgba(51, 18, 121, 0.69);
+  box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+  backdrop-filter: blur(7.9px);
+}
+
+.itemDetailContainer .greenCounter {
+  color: #4bd7a2;
+  font-size: 14px;
+  padding-right: 10px;
+  display: inline;
+}

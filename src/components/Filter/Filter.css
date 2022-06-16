@@ -1,0 +1,57 @@
+.filterContainer{
+    width: 20%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 40px;
+    margin: 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.38);
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(10px);
+    color: white; 
+}
+
+.filterContainer .h2{
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.filterContainer .h3{
+    text-align: left;
+    font-size: 15px;
+}
+
+.filterContainer .select,
+.filterContainer .formControl{
+    margin-top: 10px;
+}
+
+.filterContainer .aditionalFiltersContainer{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column
+}
+
+.filterContainer .priceFilterContainer{
+    display: flex;
+    margin-top: 10px
+}
+
+.filterContainer .box{
+    display: flex;
+    align-items: center;
+    margin: 0 5px
+}
+
+.filterContainer button{
+    color: white !important;
+}
+
+.filterContainer .Mui-selected{
+    background-color: #000 !important;
+}
+
+.filterContainer li div{
+    color: white;
+}

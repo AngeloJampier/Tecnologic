@@ -1,0 +1,24 @@
+.itemListContainer{
+    display: flex;
+    color: white;
+}
+
+.itemListGeneralContainer{
+    width: 80%;
+    z-index: 10;
+    margin: 20px;
+    border-radius: 20px;
+    padding-bottom: 50px;
+    overflow-y: overlay;
+    height: calc(100vh * 0.82);
+    background: rgba(255, 255, 255, 0.38);
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(10px);
+}
+
+.itemListContainer img{
+    min-width: 240px;
+    max-width: 240px;
+    min-height: 240px;
+    max-height: 240px;
+}
